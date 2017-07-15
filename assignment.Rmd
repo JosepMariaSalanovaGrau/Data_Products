@@ -1,0 +1,16 @@
+---
+title: "Data products - week 2 assignment"
+author: "JMSG"
+date: "15 de julio de 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, eval=FALSE}
+library(leaflet)
+my_map <- leaflet() %>% addTiles() %>% addMarkers(lat=40.626446, lng= 22.948404, popup="White Tower in Thessaloniki")
+my_map
+```
